@@ -46,6 +46,6 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border: 1px solid steelblue;
+    border-top: 2px solid steelblue;
     text-align: center;
 }
