@@ -4,13 +4,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(223, 236, 253);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: steelblue;
+    color: #023bd8;
 }
 
 main img {
@@ -34,8 +34,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #f5f4ff;
+    color: #000000;
     text-align: center;
 }
 
