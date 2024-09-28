@@ -4,13 +4,13 @@ nav {
 }
 
 nav a {
-    color: rgb(223, 236, 253);
+    color: white;
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: #023bd8;
+    color: blue;
 }
 
 main img {
