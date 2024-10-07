@@ -85,3 +85,9 @@ p {
 .hero article p {
     margin: 0;
 }
+
+footer a {
+    color: var(--accent-2);
+    text-decoration: none;
+    margin: 0 10px;
+}
