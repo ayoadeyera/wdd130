@@ -59,7 +59,7 @@ position: relative;
 .hero h1 {
     position: absolute;
     width: 100%;
-    top: 5;
+    top: 5%;
     color: var(--accent-2);
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
