@@ -1,22 +1,30 @@
+:root {
+    --primary-color: steelblue;
+    --secondary-color: white;
+    --highlight-color: blue;
+    --background-color: #f5f4ff;
+    --text-color: #000000;
+} 
+
 nav {
-    background-color: steelblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--secondary-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: blue;
+    color: var(--highlight-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--primary-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -46,6 +54,6 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border-top: 2px solid steelblue;
+    border-top: 2px solid var(--primary-color);
     text-align: center;
 }
