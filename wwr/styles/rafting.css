@@ -146,9 +146,6 @@ p {
     align-items: center;
 }
 
-.story p {
-    text-align: left;
-}
 
 .story img {
     width: 100%;
@@ -160,7 +157,6 @@ p {
 
 .story p {
     text-align: left;
-    margin: 10;
 }
 
 /* Adventure Section */
@@ -187,8 +183,8 @@ p {
 
 .adventure img {
     width: 100%;
-    max-height: auto;
-    border-radius: 8;
+    height: auto;
+    border-radius: 8 0;
 } 
 
 figcaption {
