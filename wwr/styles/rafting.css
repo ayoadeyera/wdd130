@@ -184,7 +184,7 @@ p {
 .adventure img {
     width: 100%;
     height: auto;
-    border-radius: 8 0;
+    border-radius: 8px 0;
 } 
 
 figcaption {
