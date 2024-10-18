@@ -137,9 +137,10 @@ p {
 
 .adventure img {
     width: 100%;
+    max-height: auto;
     padding: 0 10px 10px;
     border-radius: 8;
-}
+} 
 
 figcaption {
     padding: 10px;
@@ -151,7 +152,7 @@ figcaption {
 /* Gallery Section */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, minmax(50px, 1fr));
     justify-content: space-evenly;
     gap: 10px;
 }
@@ -205,6 +206,7 @@ footer {
     background-color: var(--secondary-color);
     color: var(--accent-2);
     padding: 10px;
+    margin-bottom: 2px;
     border-radius: 0 0 8px 8px;
 }
 
