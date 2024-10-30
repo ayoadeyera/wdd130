@@ -71,7 +71,7 @@ nav {
     background-color: var(--accent-1);
 }
 
-.navigation a: {
+.navigation a {
     text-decoration: none;
     font-weight: 600;
     color: var(--primary-color);
@@ -81,6 +81,10 @@ nav {
     background-color: var(--accent-1);
 }
 
+nav a.active {
+    background-color: var(--primary-color);
+    color: var(--accent-1);
+}  
 
 /* Heading Styles */
 h1 {
@@ -564,7 +568,3 @@ tr:hover {
     background-color: rgba(95, 126, 140, 0.2);
 }
 
-nav a.active {
-    background-color: var(--primary-color);
-    color: var(--accent-1);
-}  
